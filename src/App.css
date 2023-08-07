@@ -1,0 +1,173 @@
+html{
+  font-family: sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
+.logo{
+  width: 10rem;
+}
+.header{
+  min-height: 80vh;
+  background-image: url("src/images/Mask Group 134.png");
+  background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff23;
+  border-bottom: 2px solid #ffffff80;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.navbar-container__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+
+.navbar-container__list__item{
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.navbar-container__list__item__buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-container__button{
+  border: 1px solid rgb(63, 125, 241);
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-container__button--In{
+  background-color: rgb(63, 125, 241);
+}
+
+.header__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: start;
+  padding-left: 20%;
+}
+
+.header__content__title div{
+  border-bottom: 2px solid rgb(221, 126, 2);
+}
+
+.header__content__p{
+  color: #a3a0a0;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+section h2{
+  color: #0c1c75;
+  padding-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.cards-cotainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  max-width: 55.75rem;
+}
+
+.card{
+  background-color: #a3a0a0;
+  width: 380px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: rgb(22, 96, 231);
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 9px 14px 0px gray;
+}
+.card__image-container{
+  max-width: 6rem;
+  height: 100%;
+  background-color: #0c1c75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.card__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding: 1rem;
+}
+
+.card__content__title div{
+  border-bottom: 2px solid #1e33a8;
+}
+
+.card__content p{
+  color: #f8ebeb;
+}
