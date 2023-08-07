@@ -1,6 +1,9 @@
 import "./App.css";
 import Navbar from "./assets/components/Navbar";
 import icon1 from "./images/negocios-y-finanzas.png";
+import icon2 from "./images/negocios-cards.png";
+import icon3 from "./images/seguridad.png";
+import icon4 from "./images/shake_hands.png";
 
 function App() {
   return (
@@ -40,11 +43,11 @@ function App() {
 
           <div className="card">
             <div className="card__image-container">
-              <img className="card__image" src={icon1} alt="" />
+              <img className="card__image" src={icon2} alt="" />
             </div>
             <div className="card__content">
               <div className="card__content__title">
-                <h3>Make payment from almost anywhere</h3>
+                <h3>Buy eith debit and credit cards</h3>
                 <div></div>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -53,11 +56,11 @@ function App() {
 
           <div className="card">
             <div className="card__image-container">
-              <img className="card__image" src={icon1} alt="" />
+              <img className="card__image" src={icon3} alt="" />
             </div>
             <div className="card__content">
               <div className="card__content__title">
-                <h3>Make payment from almost anywhere</h3>
+                <h3>100% secure transactions</h3>
                 <div></div>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -66,11 +69,11 @@ function App() {
 
           <div className="card">
             <div className="card__image-container">
-              <img className="card__image" src={icon1} alt="" />
+              <img className="card__image" src={icon4} alt="" />
             </div>
             <div className="card__content">
               <div className="card__content__title">
-                <h3>Make payment from almost anywhere</h3>
+                <h3>Asistance at every step</h3>
                 <div></div>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
